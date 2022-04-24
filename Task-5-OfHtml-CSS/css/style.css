@@ -1,0 +1,415 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+
+.head{
+    font-family: 'Lato',
+    sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.container{
+    background-color: black;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+}
+.all-ul{
+    display: flex;
+    color:white;
+    text-transform:uppercase;
+}
+.fas{
+  color: white;
+  background-color: black;
+  padding: 16px 24px;
+  float: right;
+}
+.for_more {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 100%;
+    left: 0%;
+    display: none;
+    list-style: none;
+}
+
+.for_more li {
+    text-transform: none;
+    display: block;
+    padding: 8px;
+}
+
+.hd_more {
+    position: relative;
+    padding: 11px 18px;
+}
+
+.hd_more:hover {
+    color: black;
+    background-color: #c6c6c6;
+}
+
+.hd_more:hover .for_more {
+    display: block !important;
+}
+
+.in-more:hover {
+    background-color: #c6c6c6;
+    color: black;
+}
+.fas:hover{
+    background-color: red;
+}
+.all-ul li{
+    padding: 16px 20px;
+}
+.navs{
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+}
+.all-ul li:hover .navs{
+    color: black
+}
+.all-ul li:hover{
+  background-color: #c0bebe;
+  color: black;
+  cursor: pointer;
+}
+.first-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+.first-h3{
+    font-size: 24px;
+    padding: 20px 0px;
+}
+.first-p{
+    font-size: 15px;
+    font-weight: 20px;
+}
+.first-img{
+    width: 100%;
+}
+.first-sc,.second-sc,.third-sc,.fourth-sc{
+    width: 100%;
+}
+.first-container-sc .first-sc-texts{
+    left: 42%;
+    top:85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+}
+.second-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+    
+}
+.second-container-sc{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 56px;
+    max-width: 800px;
+    margin: auto;
+    
+
+}
+.second-sc-h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    letter-spacing: 2px;
+    
+}
+.second-sc-first-p{
+    font-family: 'Lato',
+    sans-serif;
+    color: #757575;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.second-sc-second-p{
+    margin: 15px 0px ;
+    text-align: justify;
+    line-height: 1.4;
+}
+.second-container-img{
+    display: flex;
+    justify-content: space-around;
+}
+.second-img{
+    width: 150px;
+    height: 150px;
+    
+}
+.img-help{
+    padding: 32px 0px;
+}
+.img-name{
+    font-family: 'Lato',
+    sans-serif;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.third-sc{
+    background-color: black;
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+.third-container{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 64px 56px;
+    max-width: 800px;
+    margin: auto;
+
+}
+.third-sc-h2{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 8px 0px;
+    letter-spacing: 2px;
+}
+.third-sc-p{
+    color: #757575;
+    font-size: 15px;
+    margin: 26px 0px;
+}
+.third-sc-table{
+    text-align: start;
+    background-color: white;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+.table-li{
+    color: #757575;
+    padding: 10px 18px;
+    border-bottom: 1px solid #ddd;
+}
+.li-sold-out{ 
+    background-color: #f44336 ;
+    color: white;
+    margin-left: 10px ;
+    padding: 4px 10px;
+    display: inline-block;
+}
+.round-number{
+    color: white;
+    background-color: black;
+    float: right;
+    padding: 4px 8px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.card-container{
+    padding: 32px 0px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-img{
+    width: 100%;
+    height: 180px;
+}
+.card-img:hover{
+    opacity: 0.6;
+}
+.all-card{
+    width: 33%;
+}
+.card2{
+    margin-right: 17px;
+    margin-left: 17px;
+}
+.cards{
+    line-height: 20px;
+    text-align: start;
+    background-color: white;
+    margin: auto;
+    margin-top: -18px;
+}
+.card-name, .dates, .about-card, .card-button{
+    margin: 15px 12px;
+}
+.card-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dates{
+    color: #757575;
+}
+.card-button{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    border: none;
+    margin-top: -1px;
+    
+}
+.card-button:hover{
+    background-color: #c2c0c0;
+    color:black;
+    cursor: pointer;
+}
+.fourth-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+}
+
+.fourth-sc-container{
+    text-align: center;
+    padding: 64px 56px;
+    max-width: 800px;
+    margin: auto;
+}
+.fourth-sc-h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    letter-spacing: 2px;
+}
+.for-padding{
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-i{
+    margin-right: 10px;
+}
+.contact-left{
+    text-align: start;
+    font-weight: 500;
+    font-size: 18px;
+    width: 400px;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.int{
+    border: 1px solid #b9b8b8;
+    padding: 13px;
+}
+.int-name,.int-email{
+    width: 47%;
+}
+.int-email{
+    margin-left: 16px;
+}
+.name ,.email{
+width: 100%;
+}
+.int-message{
+    margin-top: 10px;
+    width: 98%;
+}
+.message{
+    width: 100%;
+}
+.fifth-img{
+    width: 100%;
+    filter:grayscale(50%);
+}
+.button{
+    float: right;
+    margin-right: 8px;
+}
+.contact-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin: 16px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contact-button:hover{
+    background-color: #bdbaba;
+    color: black;
+}
+.foot-sc{
+    font-family: "Segoe UI",
+    Arial,
+    sans-serif;
+    padding: 60px 0px;
+    text-align: center;
+    color: #757575;
+    font-size: 23px;
+}
+.last{
+    font-size: 15px;
+    color: #757575;
+    margin: 15px 0px;
+}
+.facebook-badge{
+    border-radius: 0%;
+}
+.w3-a{
+    color: #757575;
+}
+.nav_media_bar{
+    display: none;
+}
+
+
+@media only screen and (max-width:600px) {
+    .second-container-img, .images{
+        flex-direction: column;
+    }
+    .band,.tour,.contact,.hd_more,.fa-caret-down,.fa-search{
+        display: none;
+    }
+    .nav_media_bar{
+        display: block;
+    }
+    .cards,.card-img,.all-card{
+        width: 100%;
+    }
+    .card2,.button{
+        margin: 0;
+    }
+    .card2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .for-padding{
+        display: block;
+    }
+    .contact-right{
+        padding-top: 20px;
+    }
+    .int-name,
+    .int-email,
+    .int-message {
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+    
